@@ -17,6 +17,7 @@ Equivalence Classes:-
 7. Year is less than 1900. 
 8. Year is between 1900 and 2015. 
 9. Year is greater than 2015.
+![image](https://user-images.githubusercontent.com/123552037/231672655-573acf9c-f637-4e7b-9c18-79dfc04d8c98.png)
 
 Programs:
 P1: The function linearSearch searches for a value v in an array of integers a. If v appears in the array
@@ -33,7 +34,10 @@ i++; (5)
 return (-1); (6)
 }
 
+
 ![image](https://user-images.githubusercontent.com/123552037/231545614-06562e55-97a5-44a1-870a-2cd410898439.png)
+![image](https://user-images.githubusercontent.com/123552037/231673126-4fa3246d-bbc2-4659-9f15-29ec78175d1f.png)
+
 
 P2:The function countItem returns the number of times a value v appears in an array of integers a.
 int countItem(int v, int a[])
@@ -47,6 +51,7 @@ return (count);
 }
 
 ![image](https://user-images.githubusercontent.com/123552037/231545768-aef60a63-dfd9-479f-b059-dad459d65a41.png)
+![image](https://user-images.githubusercontent.com/123552037/231673374-feb3a0ac-a4e5-4394-a1f8-655c72099ba7.png)
 
 P3: The function binarySearch searches for a value v in an ordered array of integers a. If v appears in
 the array a, then the function returns an index i, such that a[i] == v; otherwise, -1 is returned.
@@ -70,6 +75,7 @@ return(-1);
 }
 
 ![image](https://user-images.githubusercontent.com/123552037/231545913-47e1f42e-cf6a-42dc-98cd-5c8983b938ef.png)
+![image](https://user-images.githubusercontent.com/123552037/231673608-ca9789bb-f154-4d23-8a80-040714b9bbed.png)
 
 P4: The following problem has been adapted from The Art of Software Testing, by G. Myers (1979). The
 function triangle takes three integer parameters that are interpreted as the lengths of the sides of a
@@ -92,6 +98,7 @@ return(SCALENE);
 }
 
 ![image](https://user-images.githubusercontent.com/123552037/231546043-22caf6b0-ce3e-4401-b9bd-406ac45ba253.png)
+![image](https://user-images.githubusercontent.com/123552037/231673669-e01c19b0-dd2d-4069-8553-d60722d656e3.png)
 
 P5: The function prefix (String s1, String s2) returns whether or not the string s1 is a prefix
 of string s2 (you may assume that neither s1 nor s2 is null).
@@ -112,6 +119,7 @@ return true;
 }
 
 ![image](https://user-images.githubusercontent.com/123552037/231546131-04305ac2-bd0c-44f6-88dc-3f82cb648294.png)
+![image](https://user-images.githubusercontent.com/123552037/231673721-b6d89cf4-8d4f-4bd5-94d0-b7401c5f17cb.png)
 
 P6: Consider again the triangle classification program (P4) with a slightly different specification: The program
 reads floating values from the standard input. The three values A, B, and C are interpreted as
